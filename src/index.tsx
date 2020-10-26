@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Dimensions, Platform, View, LayoutChangeEvent } from 'react-native'
-import Animated from 'react-native-reanimated'
+import Animated from '@exodus/react-native-reanimated'
 import {
   PanGestureHandler,
   TapGestureHandler,

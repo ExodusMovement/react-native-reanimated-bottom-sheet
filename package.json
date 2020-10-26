@@ -1,6 +1,6 @@
 {
-  "name": "reanimated-bottom-sheet",
-  "version": "1.0.0-alpha.22",
+  "name": "@exodus/reanimated-bottom-sheet",
+  "version": "1.0.0-alpha.22.exodus-1",
   "description": "Bottom sheet component",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -22,21 +22,20 @@
   ],
   "files": [
     "lib/",
-    "src/",
     "reanimated-bottom-sheet.d.ts",
     "README.md"
   ],
   "author": "Michał Osadnik",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osdnk/reanimated-bottom-sheet.git"
+    "url": "git+https://github.com/exodusmovement/reanimated-bottom-sheet.git"
   },
   "license": "MIT",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "react-native-gesture-handler": "*",
-    "react-native-reanimated": "*"
+    "@exodus/react-native-reanimated": "*"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
@@ -70,9 +69,7 @@
     "source": "src",
     "output": "lib",
     "targets": [
-      "commonjs",
-      "module",
-      "typescript"
+      "module"
     ]
   }
 }
