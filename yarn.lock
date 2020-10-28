@@ -1066,6 +1066,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@exodus/react-native-reanimated@*":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@exodus/react-native-reanimated/-/react-native-reanimated-1.2.0.tgz#4dc6793fc8c79948902a8ae8a1f7eef5ff008360"
+  integrity sha512-VIzTlZup0R2ZDA4CHFqBoefFPu44yYDs7hEaKz6iUptuoJ5CUu25qWho9ohQ9Rg4PZw+yKuZmLrtQ+aU3n3wcw==
+
 "@iarna/toml@2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.3.tgz#f060bf6eaafae4d56a7dac618980838b0696e2ab"

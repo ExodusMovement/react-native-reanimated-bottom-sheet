@@ -1,6 +1,6 @@
 {
   "name": "@exodus/reanimated-bottom-sheet",
-  "version": "1.0.0-alpha.22.exodus-1",
+  "version": "1.0.0-alpha.22.exodus-2",
   "description": "Bottom sheet component",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -11,7 +11,7 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "typescript": "tsc --noEmit",
     "release": "release-it",
-    "prepare": "bob build"
+    "prepare": "bob build && rm -rf lib/module/index.js.map"
   },
   "keywords": [
     "react-native",
@@ -57,12 +57,12 @@
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.0.1",
     "release-it": "^12.4.3",
-    "typescript": "^3.4.5"
+    "typescript": "^3.4.5",
+    "@exodus/react-native-reanimated": "*"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn typescript",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "yarn lint && yarn typescript"
     }
   },
   "@react-native-community/bob": {
