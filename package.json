@@ -2,7 +2,7 @@
   "name": "@exodus/reanimated-bottom-sheet",
   "version": "1.0.0-alpha.22.exodus-2",
   "description": "Bottom sheet component",
-  "main": "lib/commonjs/index.js",
+  "main": "lib/module/index.js",
   "module": "lib/module/index.js",
   "react-native": "lib/module/index.js",
   "types": "lib/typescript/index.d.ts",
