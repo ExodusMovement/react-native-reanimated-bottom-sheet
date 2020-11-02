@@ -1,6 +1,6 @@
 {
   "name": "@exodus/reanimated-bottom-sheet",
-  "version": "1.0.0-alpha.22.exodus-2",
+  "version": "1.0.0-alpha.22.exodus-3",
   "description": "Bottom sheet component",
   "main": "lib/module/index.js",
   "module": "lib/module/index.js",
