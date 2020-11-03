@@ -32,10 +32,10 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-gesture-handler": "*",
-    "@exodus/react-native-reanimated": "*"
+    "react": "^16.8.3",
+    "react-native": "^0.59.9",
+    "react-native-gesture-handler": "^1.0.15",
+    "@exodus/react-native-reanimated": "^1.2.0-exodus-3"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
@@ -58,7 +58,7 @@
     "react-native-reanimated": "^1.0.1",
     "release-it": "^12.4.3",
     "typescript": "^3.4.5",
-    "@exodus/react-native-reanimated": "*"
+    "@exodus/react-native-reanimated": "^1.2.0-exodus-3"
   },
   "husky": {
     "hooks": {
