@@ -23,12 +23,12 @@ type Props = {
   /**
    * Method for rendering scrollable content of bottom sheet.
    */
-  renderContent?: () => React.ReactNode
+  content?: React.ReactNode
 
   /**
    * Method for rendering non-scrollable header of bottom sheet.
    */
-  renderHeader?: () => React.ReactNode
+  header?: React.ReactNode
 
   /**
    * Defines if bottom sheet could be scrollable by gesture. Defaults to true.
@@ -793,7 +793,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
   }
 
   render() {
-    const { borderRadius } = this.props
+    const { borderRadius, content, header } = this.props
     return (
       <>
         <Animated.View
@@ -837,7 +837,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
               }}
               onLayout={this.handleLayoutHeader}
             >
-              {this.props.renderHeader && this.props.renderHeader()}
+              {header}
             </Animated.View>
           </PanGestureHandler>
           <View
@@ -879,7 +879,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
                     }}
                     onLayout={this.handleLayoutContent}
                   >
-                    {this.props.renderContent && this.props.renderContent()}
+                    {content}
                   </Animated.View>
                 </TapGestureHandler>
               </Animated.View>
